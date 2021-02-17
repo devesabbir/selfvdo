@@ -58,8 +58,15 @@ header {
     animation-name: logo;
     animation-duration: 2s;
     animation-delay: 1s;
+    transition: .5s;
     
 
+}
+
+.header-row figure h2 a:hover{
+    color: indigo;
+    letter-spacing: 3px;
+    font-style: italic;
 }
 
 .header-row nav {
@@ -87,8 +94,20 @@ header {
     color: grey;
     font-size: 20px;
     padding: 15px 21px;
+    transition: .5s;
+}
+.header-row nav ul li:first-child a{
+    color: blue;
+}
+.header-row nav ul li:first-child a:hover{
+    color:gray;
 }
 
+.header-row nav ul li a:hover{
+
+    color: blue;
+    letter-spacing: 3px;
+}
 .banner-section {
     background: url(https://i.ibb.co/Z8zdhDG/hi-five-850x476.webp) no-repeat center center fixed;
     background-size: cover;
