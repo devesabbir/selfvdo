@@ -252,7 +252,7 @@ header {
 
 .contact-section main aside .form-div form input[type="text"] {
     display: block;
-    width: 65%;
+    width: 77%;
     padding: 10px 10px;
     color: grey;
     font-size: 21px;
@@ -264,7 +264,7 @@ header {
 
 .contact-section main aside .form-div form input[type="email"] {
     display: block;
-    width: 65%;
+    width: 77%;
     padding: 10px 10px;
     color: gray;
     font-size: 21px;
@@ -276,7 +276,7 @@ header {
 
 .contact-section main aside .form-div form input[type="date"] {
     display: block;
-    width: 65%;
+    width: 77%;
     padding: 10px 10px;
     color: gray;
     font-size: 21px;
@@ -290,6 +290,18 @@ header {
     display: block;
     padding: 10px 20px;
     cursor: pointer;
+    border: none;
+    background: blue;
+    color: #fff;
+    font-weight: 700;
+    transition: .5s;
+    margin-left: 15px;
+}
+
+.contact-section main aside .form-div form button:hover{
+    color: blue;
+    background: transparent;
+    letter-spacing: 3px;
 }
 
 
